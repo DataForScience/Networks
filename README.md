@@ -6,3 +6,5 @@ Trees, Graphs and Networks are fundamental data structures that underlie much of
 
 In this course we will build, step by step, a mini toolkit of network representations and algorithms that will allow students to understand the fundamental ideas and concepts that lie at the base of state of art algorithms (such as PageRank and recommendation systems), technologies (such as graph databases) and tools (like web crawlers).
 
+Slides: http://data4sci.com/landing/networks/
+
