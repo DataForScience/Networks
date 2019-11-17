@@ -25,7 +25,8 @@ def add_method(cls):
 @add_method(Graph)
 def add_node(self, node, **kwargs):
     self._nodes[node] = kwargs
-    
+
+
 @add_method(Graph)
 def add_nodes_from(self, nodes, **kwargs):
     for node in nodes:
@@ -33,6 +34,11 @@ def add_nodes_from(self, nodes, **kwargs):
             self._nodes[node[0]] = node[1:]
         else:
             self._nodes[node] = kwargs
+
+
+@add_method(Graph)
+def nodes(self):
+    return list(self._nodes.keys())
 
 
 @add_method(Graph)
@@ -67,10 +73,15 @@ def add_edges_from(self, edges, **kwargs):
 
 
 @add_method(Graph)
-def edges(self):
+def edges(self, node_i=None):
     e = []
     
-    for node_i in self._edges:
+    if node_i is None:
+        edges = self._edges
+    else:
+        edges = [node_i]
+        
+    for node_i in edges:
         for node_j in self._edges[node_i]:
             e.append([node_i, node_j, self._edges[node_i][node_j]])
             
@@ -129,7 +140,10 @@ def weights(self, weight="weight"):
 
 @add_method(Graph)
 def neighbours(self, node):
-    return list(self._edges[node].keys())
+    if node in self._edges:
+        return list(self._edges[node].keys())
+    else:
+        return []
 
 
 @add_method(Graph)
