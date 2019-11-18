@@ -176,7 +176,6 @@ def weight_distribution(self, normalize=True):
     return dist
 
 
-
 @add_method(Graph)
 def neighbour_degree(self):
     knn = {}
