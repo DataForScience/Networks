@@ -1,3 +1,5 @@
+# Data For Science style
+# Author: Bruno Goncalves <bgoncalves@data4sci.com>
 # Modified from the matplotlib FiveThirtyEight style by
 # Author: Cameron Davidson-Pilon, replicated styles from FiveThirtyEight.com
 # See https://www.dataorigami.net/blogs/fivethirtyeight-mpl
@@ -38,5 +40,4 @@ figure.subplot.left: 0.08
 figure.subplot.right: 0.95
 figure.subplot.bottom: 0.07
 figure.figsize: 12.8, 8.8
-figure.autolayout: True
 figure.dpi: 300
