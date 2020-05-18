@@ -1,6 +1,11 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DataForScience/Networks/master)
+
+
 # Network and Graph Algorithms From Scratch
 
 ### Code and slides to accompany the online series of webinars: https://data4sci.com/networks by Data For Science.
+
+### Run the code in Binder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DataForScience/Networks/master)
 
 Trees, Graphs and Networks are fundamental data structures that underlie much of the recent developments in data science and computer science algorithms. Technologies and Applications like Social Networks, Cloud and Distributed computing, Cryptocurrencies and Traffic Routing and directions all rely on the proper use of graph concepts.
 
