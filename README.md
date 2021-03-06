@@ -1,5 +1,9 @@
+![GitHub](https://img.shields.io/github/license/DataForScience/Networks)
+[![Twitter @data4sci](https://img.shields.io/twitter/follow/data4sci)](https://twitter.com/intent/follow?screen_name=data4sci)
+![GitHub top language](https://img.shields.io/github/languages/top/DataForScience/Networks)
+![GitHub repo size](https://img.shields.io/github/repo-size/DataForScience/Networks)
+![GitHub last commit](https://img.shields.io/github/last-commit/DataForScience/Networks)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DataForScience/Networks/master)
-
 
 # Network and Graph Algorithms From Scratch
 

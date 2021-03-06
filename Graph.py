@@ -2,6 +2,8 @@ from collections import Counter
 from pprint import pprint
 
 import numpy as np
+
+import matplotlib
 import matplotlib.pyplot as plt
 
 import watermark
