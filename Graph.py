@@ -209,7 +209,7 @@ def neighbour_degree_function(self):
         knn[curr_k]/=count[curr_k]
     
     knn = list(knn.items())
-    knn.sort(key=lambda x:x[0])
+    knn.sort(key=lambda x: x[0])
     
     return np.array(knn)
 
