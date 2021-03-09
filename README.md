@@ -5,7 +5,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/DataForScience/Networks)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DataForScience/Networks/master)
 
-[![Graphs For Science](https://img.shields.io/badge/Graphs_For_Science-Subscribe-blue)](https://graphs4sci.substack.com/)
+[![Graphs For Science](https://img.shields.io/badge/Graphs_For_Science-Subscribe-blue)](https://graphs4sci.substack.com/subscribe)
 [![Sunday Briefing](https://img.shields.io/badge/Sunday_Briefing-Subscribe-blue)](https://data4sci.ck.page/8a51c452bc)
 
 # Network and Graph Algorithms From Scratch
@@ -20,3 +20,7 @@ In this course we will build, step by step, a mini toolkit of network representa
 
 Slides: http://data4sci.com/landing/networks/
 
+# Blog
+
+We also publish the Graphs For Data Science substack. Subscribe and never miss an update! 
+[![Graphs For Science](https://img.shields.io/badge/Graphs_For_Science-Subscribe-blue)](https://graphs4sci.substack.com/subscribe)
