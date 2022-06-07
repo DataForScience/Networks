@@ -152,7 +152,7 @@ def neighbours(self, node):
 def _build_distribution(data, normalize=True):
     values = data.values()
     dist = list(Counter(values).items())
-    dist.sort(key=lambda x:x[0])
+    dist.sort(key=lambda x: x[0])
     dist = np.array(dist, dtype='float')
            
     if normalize:
