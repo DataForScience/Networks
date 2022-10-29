@@ -175,6 +175,9 @@ def weight_distribution(self, normalize=True):
     deg = self.weights()
     dist = Graph._build_distribution(deg, normalize)
     
+    if not self._directed:
+        dist.T[1]/=2   
+    
     return dist
 
 
@@ -206,7 +209,7 @@ def neighbour_degree_function(self):
         count[curr_k] = count.get(curr_k, 0) + 1
         
     for curr_k in knn:
-        knn[curr_k]/=count[curr_k]
+        knn[curr_k] /= count[curr_k]
     
     knn = list(knn.items())
     knn.sort(key=lambda x: x[0])
